@@ -1,0 +1,46 @@
+:root {
+  --white-smoke: #f3f2f2;
+  --black: #1b1c1b;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-family: sans-serif;
+}
+* {
+  outline: none;
+}
+body {
+  margin: 0;
+  background: var(--black) url("assets/images/background.png") no-repeat center
+    center fixed !important;
+  background-size: cover;
+  overflow-x: hidden; /* Tambahkan baris ini */
+}
+.body {
+  font-family: Karla, sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+}
+.cursor {
+  cursor: url("https://assets-global.website-files.com/5a63750443f71000016b3013/5a63974b4af5970001a82e02_down-cursor.svg"),
+    default;
+}
+.hero_title {
+  font-size: 4em;
+  /* font-size: 20px; */
+}
+.hero_desc {
+  font-size: 2rem;
+  /* font-size: 3em; */
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: left;
+  padding-left: 15px;
+}
